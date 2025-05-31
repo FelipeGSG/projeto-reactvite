@@ -3,6 +3,7 @@ import HardwareSections from './components/HardwareSections';
 import SoftwareSection from './components/SoftwareSection';
 import TechSections from './components/Languages';
 import CategoryCards from './components/CategoryCards';
+import Footer from './components/Footer';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('hardware');
@@ -42,6 +43,7 @@ export default function App() {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -9,14 +9,11 @@ const Footer = () => {
           © {new Date().getFullYear()} Projeto Tecnologias. Desenvolvido com ❤️ e IA.
         </p>
         <div style={styles.links}>
-          <a href="https://github.com/seuusuario" target="_blank" rel="noopener noreferrer" style={styles.link}>
-            GitHub
+          <a href="https://github.com/FelipeGSG" target="_blank" rel="noopener noreferrer" style={styles.link}>
+            GitHub Educacional
           </a>
-          <a href="https://linkedin.com/in/seuusuario" target="_blank" rel="noopener noreferrer" style={styles.link}>
-            LinkedIn
-          </a>
-          <a href="mailto:contato@tecnologias.com" style={styles.link}>
-            Contato
+          <a href="https://github.com/Felipe-Gabriel-Souza-Goncalves" target="_blank" rel="noopener noreferrer" style={styles.link}>
+            GitHub Pessoal
           </a>
         </div>
       </div>
